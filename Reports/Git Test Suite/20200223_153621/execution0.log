@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-23T15:37:09</date>
+  <millis>1582486629036</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Git Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Git Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Git Test Suite</property>
+</record>
+<record>
+  <date>2020-02-23T15:37:09</date>
+  <millis>1582486629312</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = maste - Emmanuel25</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">maste - Emmanuel25</property>
+</record>
+<record>
+  <date>2020-02-23T15:37:09</date>
+  <millis>1582486629320</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-02-23T15:37:09</date>
+  <millis>1582486629323</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2020-02-23T15:37:09</date>
+  <millis>1582486629397</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.6.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.6.4</property>
+</record>
+<record>
+  <date>2020-02-23T15:37:14</date>
+  <millis>1582486634010</millis>
+  <sequence>5</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Git Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

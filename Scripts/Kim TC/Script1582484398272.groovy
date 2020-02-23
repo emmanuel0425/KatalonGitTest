@@ -13,3 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://training.openspan.com/login')
+
+WebUI.setText(findTestObject('Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'), 
+    'Emmanuel')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'), 
+    '1XZoPq4kDiISqWkbUw207A==')
+
+WebUI.sendKeys(findTestObject('Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.closeBrowser()
+
