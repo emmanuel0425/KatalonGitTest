@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Git Test Suite,Chrome 80.0.3987.116,,2020-02-23 16:00:03,2020-02-23 16:02:12,2m - 8.813s,ERROR
+,,,,,,
+Test Cases/Kim TC,Chrome 80.0.3987.116,,2020-02-23 16:00:13,2020-02-23 16:01:13,59.410s,ERROR
+"openBrowser("""")",Chrome 80.0.3987.116,,2020-02-23 16:00:25,2020-02-23 16:01:05,40.440s,PASSED
+"navigateToUrl(""http://training.openspan.com/login"")",Chrome 80.0.3987.116,,2020-02-23 16:01:05,2020-02-23 16:01:10,4.642s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name""), ""Emmanuel"")",Chrome 80.0.3987.116,,2020-02-23 16:01:10,2020-02-23 16:01:11,1.260s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass""), ""1XZoPq4kDiISqWkbUw207A=="")",Chrome 80.0.3987.116,,2020-02-23 16:01:11,2020-02-23 16:01:12,0.992s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass""), Keys.chord(ENTER))",Chrome 80.0.3987.116,,2020-02-23 16:01:12,2020-02-23 16:01:12,0.207s,ERROR
+,,,,,,
+Test Cases/Tom TC,Chrome 80.0.3987.116,,2020-02-23 16:01:13,2020-02-23 16:02:12,59.293s,PASSED
+"openBrowser("""")",Chrome 80.0.3987.116,,2020-02-23 16:01:14,2020-02-23 16:01:40,25.946s,PASSED
+"navigateToUrl(""https://www.katalon.com/"")",Chrome 80.0.3987.116,,2020-02-23 16:01:40,2020-02-23 16:01:56,15.631s,PASSED
+closeBrowser(),Chrome 80.0.3987.116,,2020-02-23 16:01:56,2020-02-23 16:02:12,16.331s,PASSED
